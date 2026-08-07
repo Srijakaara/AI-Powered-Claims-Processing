@@ -4,7 +4,7 @@ import { X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import casesData from '@/data/cases.json'
 import decisionData from '@/data/decision.json'
-import { type CaseCategory, CATEGORY_META } from '@/components/case-meta'
+import { type CaseCategory } from '@/components/case-meta'
 import { StatusBadge, CategoryBadge } from '@/components/case-badges'
 
 type Case = {
