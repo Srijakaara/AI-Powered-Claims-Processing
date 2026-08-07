@@ -1,0 +1,3062 @@
+{
+  "CLM-2026-10432": {
+    "caseId": "CLM-2026-10432",
+    "claimant": {
+      "name": "A. Sharma",
+      "policyNumber": "POL-MT-20000",
+      "city": "Mumbai",
+      "claimAmount": 45000
+    },
+    "incident": {
+      "date": "2026-07-08",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-22T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-22T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 96%."
+      },
+      {
+        "at": "2026-07-22T05:30:00.000Z",
+        "title": "Auto-Approved",
+        "actor": "AI Engine",
+        "detail": "All rules passed; claim settled without manual intervention."
+      },
+      {
+        "at": "2026-07-22T06:30:00.000Z",
+        "title": "Payout Initiated",
+        "actor": "Settlement System",
+        "detail": "Funds released to registered payout account."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern A1 – Straight-Through Settlement",
+      "patternDescription": "Claim matches a high-frequency historical settlement pattern: clean policy, no anomalies, all validation rules passed above the auto-approval confidence threshold (≥85%).",
+      "reason": "All 6 validation rules passed and AI confidence (96%) cleared the 85% auto-settlement threshold, so the claim was straight-through processed without human touch."
+    }
+  },
+  "CLM-2026-10433": {
+    "caseId": "CLM-2026-10433",
+    "claimant": {
+      "name": "R. Iyer",
+      "policyNumber": "POL-MT-20007",
+      "city": "Bengaluru",
+      "claimAmount": 48771
+    },
+    "incident": {
+      "date": "2026-07-09",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-23T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-23T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 94%."
+      },
+      {
+        "at": "2026-07-23T05:30:00.000Z",
+        "title": "Auto-Approved",
+        "actor": "AI Engine",
+        "detail": "All rules passed; claim settled without manual intervention."
+      },
+      {
+        "at": "2026-07-23T06:30:00.000Z",
+        "title": "Payout Initiated",
+        "actor": "Settlement System",
+        "detail": "Funds released to registered payout account."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern A1 – Straight-Through Settlement",
+      "patternDescription": "Claim matches a high-frequency historical settlement pattern: clean policy, no anomalies, all validation rules passed above the auto-approval confidence threshold (≥85%).",
+      "reason": "All 6 validation rules passed and AI confidence (94%) cleared the 85% auto-settlement threshold, so the claim was straight-through processed without human touch."
+    }
+  },
+  "CLM-2026-10434": {
+    "caseId": "CLM-2026-10434",
+    "claimant": {
+      "name": "K. Nair",
+      "policyNumber": "POL-HL-20014",
+      "city": "Pune",
+      "claimAmount": 40462
+    },
+    "incident": {
+      "date": "2026-07-10",
+      "description": "Hospitalization for treatment following diagnosis at network hospital; cashless claim requested."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Network Hospital Verification",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Pre-existing Condition Waiting Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "Itemized Bill Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Diagnosis-Treatment Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "Sum Insured within Limit",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Hospital Discharge Summary",
+        "fileType": "PDF",
+        "masked": "Patient ID ••••812",
+        "revealed": "Patient ID PT44812"
+      },
+      {
+        "id": "doc2",
+        "name": "Itemized Hospital Bill",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 2,18,300"
+      },
+      {
+        "id": "doc3",
+        "name": "Government ID Proof",
+        "fileType": "PDF",
+        "masked": "XXXX XXXX 6021",
+        "revealed": "4821 5590 6021"
+      },
+      {
+        "id": "doc4",
+        "name": "Doctor's Prescription",
+        "fileType": "PDF",
+        "masked": "Rx ID ••••39",
+        "revealed": "Rx ID PR7139"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-24T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-24T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 98%."
+      },
+      {
+        "at": "2026-07-24T05:30:00.000Z",
+        "title": "Auto-Approved",
+        "actor": "AI Engine",
+        "detail": "All rules passed; claim settled without manual intervention."
+      },
+      {
+        "at": "2026-07-24T06:30:00.000Z",
+        "title": "Payout Initiated",
+        "actor": "Settlement System",
+        "detail": "Funds released to registered payout account."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern A1 – Straight-Through Settlement",
+      "patternDescription": "Claim matches a high-frequency historical settlement pattern: clean policy, no anomalies, all validation rules passed above the auto-approval confidence threshold (≥85%).",
+      "reason": "All 6 validation rules passed and AI confidence (98%) cleared the 85% auto-settlement threshold, so the claim was straight-through processed without human touch."
+    }
+  },
+  "CLM-2026-10435": {
+    "caseId": "CLM-2026-10435",
+    "claimant": {
+      "name": "S. Verma",
+      "policyNumber": "POL-MT-20021",
+      "city": "Chennai",
+      "claimAmount": 56313
+    },
+    "incident": {
+      "date": "2026-07-11",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-25T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-25T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 91%."
+      },
+      {
+        "at": "2026-07-25T05:30:00.000Z",
+        "title": "Auto-Approved",
+        "actor": "AI Engine",
+        "detail": "All rules passed; claim settled without manual intervention."
+      },
+      {
+        "at": "2026-07-25T06:30:00.000Z",
+        "title": "Payout Initiated",
+        "actor": "Settlement System",
+        "detail": "Funds released to registered payout account."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern A1 – Straight-Through Settlement",
+      "patternDescription": "Claim matches a high-frequency historical settlement pattern: clean policy, no anomalies, all validation rules passed above the auto-approval confidence threshold (≥85%).",
+      "reason": "All 6 validation rules passed and AI confidence (91%) cleared the 85% auto-settlement threshold, so the claim was straight-through processed without human touch."
+    }
+  },
+  "CLM-2026-10436": {
+    "caseId": "CLM-2026-10436",
+    "claimant": {
+      "name": "P. Rao",
+      "policyNumber": "POL-HL-20028",
+      "city": "Hyderabad",
+      "claimAmount": 50924
+    },
+    "incident": {
+      "date": "2026-07-12",
+      "description": "Hospitalization for treatment following diagnosis at network hospital; cashless claim requested."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Network Hospital Verification",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Pre-existing Condition Waiting Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "Itemized Bill Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Diagnosis-Treatment Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "Sum Insured within Limit",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Hospital Discharge Summary",
+        "fileType": "PDF",
+        "masked": "Patient ID ••••812",
+        "revealed": "Patient ID PT44812"
+      },
+      {
+        "id": "doc2",
+        "name": "Itemized Hospital Bill",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 2,18,300"
+      },
+      {
+        "id": "doc3",
+        "name": "Government ID Proof",
+        "fileType": "PDF",
+        "masked": "XXXX XXXX 6021",
+        "revealed": "4821 5590 6021"
+      },
+      {
+        "id": "doc4",
+        "name": "Doctor's Prescription",
+        "fileType": "PDF",
+        "masked": "Rx ID ••••39",
+        "revealed": "Rx ID PR7139"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-26T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-26T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 93%."
+      },
+      {
+        "at": "2026-07-26T05:30:00.000Z",
+        "title": "Auto-Approved",
+        "actor": "AI Engine",
+        "detail": "All rules passed; claim settled without manual intervention."
+      },
+      {
+        "at": "2026-07-26T06:30:00.000Z",
+        "title": "Payout Initiated",
+        "actor": "Settlement System",
+        "detail": "Funds released to registered payout account."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern A1 – Straight-Through Settlement",
+      "patternDescription": "Claim matches a high-frequency historical settlement pattern: clean policy, no anomalies, all validation rules passed above the auto-approval confidence threshold (≥85%).",
+      "reason": "All 6 validation rules passed and AI confidence (93%) cleared the 85% auto-settlement threshold, so the claim was straight-through processed without human touch."
+    }
+  },
+  "CLM-2026-10437": {
+    "caseId": "CLM-2026-10437",
+    "claimant": {
+      "name": "M. Gupta",
+      "policyNumber": "POL-MT-20035",
+      "city": "Delhi NCR",
+      "claimAmount": 63855
+    },
+    "incident": {
+      "date": "2026-07-13",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-27T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-27T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 97%."
+      },
+      {
+        "at": "2026-07-27T05:30:00.000Z",
+        "title": "Auto-Approved",
+        "actor": "AI Engine",
+        "detail": "All rules passed; claim settled without manual intervention."
+      },
+      {
+        "at": "2026-07-27T06:30:00.000Z",
+        "title": "Payout Initiated",
+        "actor": "Settlement System",
+        "detail": "Funds released to registered payout account."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern A1 – Straight-Through Settlement",
+      "patternDescription": "Claim matches a high-frequency historical settlement pattern: clean policy, no anomalies, all validation rules passed above the auto-approval confidence threshold (≥85%).",
+      "reason": "All 6 validation rules passed and AI confidence (97%) cleared the 85% auto-settlement threshold, so the claim was straight-through processed without human touch."
+    }
+  },
+  "CLM-2026-10438": {
+    "caseId": "CLM-2026-10438",
+    "claimant": {
+      "name": "N. Reddy",
+      "policyNumber": "POL-MT-20042",
+      "city": "Kochi",
+      "claimAmount": 67626
+    },
+    "incident": {
+      "date": "2026-07-14",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-10T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-10T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 95%."
+      },
+      {
+        "at": "2026-07-10T05:30:00.000Z",
+        "title": "Auto-Approved",
+        "actor": "AI Engine",
+        "detail": "All rules passed; claim settled without manual intervention."
+      },
+      {
+        "at": "2026-07-10T06:30:00.000Z",
+        "title": "Payout Initiated",
+        "actor": "Settlement System",
+        "detail": "Funds released to registered payout account."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern A1 – Straight-Through Settlement",
+      "patternDescription": "Claim matches a high-frequency historical settlement pattern: clean policy, no anomalies, all validation rules passed above the auto-approval confidence threshold (≥85%).",
+      "reason": "All 6 validation rules passed and AI confidence (95%) cleared the 85% auto-settlement threshold, so the claim was straight-through processed without human touch."
+    }
+  },
+  "CLM-2026-10439": {
+    "caseId": "CLM-2026-10439",
+    "claimant": {
+      "name": "D. Menon",
+      "policyNumber": "POL-HL-20049",
+      "city": "Ahmedabad",
+      "claimAmount": 66617
+    },
+    "incident": {
+      "date": "2026-07-15",
+      "description": "Hospitalization for treatment following diagnosis at network hospital; cashless claim requested."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Network Hospital Verification",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Pre-existing Condition Waiting Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "Itemized Bill Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Diagnosis-Treatment Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "Sum Insured within Limit",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Hospital Discharge Summary",
+        "fileType": "PDF",
+        "masked": "Patient ID ••••812",
+        "revealed": "Patient ID PT44812"
+      },
+      {
+        "id": "doc2",
+        "name": "Itemized Hospital Bill",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 2,18,300"
+      },
+      {
+        "id": "doc3",
+        "name": "Government ID Proof",
+        "fileType": "PDF",
+        "masked": "XXXX XXXX 6021",
+        "revealed": "4821 5590 6021"
+      },
+      {
+        "id": "doc4",
+        "name": "Doctor's Prescription",
+        "fileType": "PDF",
+        "masked": "Rx ID ••••39",
+        "revealed": "Rx ID PR7139"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-11T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-11T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 92%."
+      },
+      {
+        "at": "2026-07-11T05:30:00.000Z",
+        "title": "Auto-Approved",
+        "actor": "AI Engine",
+        "detail": "All rules passed; claim settled without manual intervention."
+      },
+      {
+        "at": "2026-07-11T06:30:00.000Z",
+        "title": "Payout Initiated",
+        "actor": "Settlement System",
+        "detail": "Funds released to registered payout account."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern A1 – Straight-Through Settlement",
+      "patternDescription": "Claim matches a high-frequency historical settlement pattern: clean policy, no anomalies, all validation rules passed above the auto-approval confidence threshold (≥85%).",
+      "reason": "All 6 validation rules passed and AI confidence (92%) cleared the 85% auto-settlement threshold, so the claim was straight-through processed without human touch."
+    }
+  },
+  "CLM-2026-10440": {
+    "caseId": "CLM-2026-10440",
+    "claimant": {
+      "name": "V. Kapoor",
+      "policyNumber": "POL-MT-20056",
+      "city": "Mumbai",
+      "claimAmount": 75168
+    },
+    "incident": {
+      "date": "2026-07-16",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-15T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-15T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 99%."
+      },
+      {
+        "at": "2026-07-15T05:30:00.000Z",
+        "title": "Auto-Approved",
+        "actor": "AI Engine",
+        "detail": "All rules passed; claim settled without manual intervention."
+      },
+      {
+        "at": "2026-07-15T06:30:00.000Z",
+        "title": "Payout Initiated",
+        "actor": "Settlement System",
+        "detail": "Funds released to registered payout account."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern A1 – Straight-Through Settlement",
+      "patternDescription": "Claim matches a high-frequency historical settlement pattern: clean policy, no anomalies, all validation rules passed above the auto-approval confidence threshold (≥85%).",
+      "reason": "All 6 validation rules passed and AI confidence (99%) cleared the 85% auto-settlement threshold, so the claim was straight-through processed without human touch."
+    }
+  },
+  "CLM-2026-10441": {
+    "caseId": "CLM-2026-10441",
+    "claimant": {
+      "name": "J. Pillai",
+      "policyNumber": "POL-MT-20063",
+      "city": "Bengaluru",
+      "claimAmount": 78939
+    },
+    "incident": {
+      "date": "2026-07-17",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-16T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-16T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 90%."
+      },
+      {
+        "at": "2026-07-16T05:30:00.000Z",
+        "title": "Auto-Approved",
+        "actor": "AI Engine",
+        "detail": "All rules passed; claim settled without manual intervention."
+      },
+      {
+        "at": "2026-07-16T06:30:00.000Z",
+        "title": "Payout Initiated",
+        "actor": "Settlement System",
+        "detail": "Funds released to registered payout account."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern A1 – Straight-Through Settlement",
+      "patternDescription": "Claim matches a high-frequency historical settlement pattern: clean policy, no anomalies, all validation rules passed above the auto-approval confidence threshold (≥85%).",
+      "reason": "All 6 validation rules passed and AI confidence (90%) cleared the 85% auto-settlement threshold, so the claim was straight-through processed without human touch."
+    }
+  },
+  "CLM-2026-10442": {
+    "caseId": "CLM-2026-10442",
+    "claimant": {
+      "name": "T. Chawla",
+      "policyNumber": "POL-HL-20070",
+      "city": "Pune",
+      "claimAmount": 82310
+    },
+    "incident": {
+      "date": "2026-07-18",
+      "description": "Hospitalization for treatment following diagnosis at network hospital; cashless claim requested."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Network Hospital Verification",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Pre-existing Condition Waiting Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "Itemized Bill Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Diagnosis-Treatment Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "Sum Insured within Limit",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Hospital Discharge Summary",
+        "fileType": "PDF",
+        "masked": "Patient ID ••••812",
+        "revealed": "Patient ID PT44812"
+      },
+      {
+        "id": "doc2",
+        "name": "Itemized Hospital Bill",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 2,18,300"
+      },
+      {
+        "id": "doc3",
+        "name": "Government ID Proof",
+        "fileType": "PDF",
+        "masked": "XXXX XXXX 6021",
+        "revealed": "4821 5590 6021"
+      },
+      {
+        "id": "doc4",
+        "name": "Doctor's Prescription",
+        "fileType": "PDF",
+        "masked": "Rx ID ••••39",
+        "revealed": "Rx ID PR7139"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-17T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-17T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 96%."
+      },
+      {
+        "at": "2026-07-17T05:30:00.000Z",
+        "title": "Auto-Approved",
+        "actor": "AI Engine",
+        "detail": "All rules passed; claim settled without manual intervention."
+      },
+      {
+        "at": "2026-07-17T06:30:00.000Z",
+        "title": "Payout Initiated",
+        "actor": "Settlement System",
+        "detail": "Funds released to registered payout account."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern A1 – Straight-Through Settlement",
+      "patternDescription": "Claim matches a high-frequency historical settlement pattern: clean policy, no anomalies, all validation rules passed above the auto-approval confidence threshold (≥85%).",
+      "reason": "All 6 validation rules passed and AI confidence (96%) cleared the 85% auto-settlement threshold, so the claim was straight-through processed without human touch."
+    }
+  },
+  "CLM-2026-10443": {
+    "caseId": "CLM-2026-10443",
+    "claimant": {
+      "name": "L. Bose",
+      "policyNumber": "POL-MT-20077",
+      "city": "Chennai",
+      "claimAmount": 86481
+    },
+    "incident": {
+      "date": "2026-07-19",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-18T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-18T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 94%."
+      },
+      {
+        "at": "2026-07-18T05:30:00.000Z",
+        "title": "Auto-Approved",
+        "actor": "AI Engine",
+        "detail": "All rules passed; claim settled without manual intervention."
+      },
+      {
+        "at": "2026-07-18T06:30:00.000Z",
+        "title": "Payout Initiated",
+        "actor": "Settlement System",
+        "detail": "Funds released to registered payout account."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern A1 – Straight-Through Settlement",
+      "patternDescription": "Claim matches a high-frequency historical settlement pattern: clean policy, no anomalies, all validation rules passed above the auto-approval confidence threshold (≥85%).",
+      "reason": "All 6 validation rules passed and AI confidence (94%) cleared the 85% auto-settlement threshold, so the claim was straight-through processed without human touch."
+    }
+  },
+  "CLM-2026-20511": {
+    "caseId": "CLM-2026-20511",
+    "claimant": {
+      "name": "H. Desai",
+      "policyNumber": "POL-MT-20084",
+      "city": "Hyderabad",
+      "claimAmount": 90252
+    },
+    "incident": {
+      "date": "2026-07-20",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-15T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-15T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 78%."
+      },
+      {
+        "at": "2026-07-15T06:30:00.000Z",
+        "title": "Assigned to Reviewer",
+        "actor": "Queue Manager",
+        "detail": "Case routed to claims adjuster for human-in-the-loop review."
+      },
+      {
+        "at": "2026-07-15T11:30:00.000Z",
+        "title": "Reviewer Confirmed AI Recommendation",
+        "actor": "Claims Adjuster",
+        "detail": "Reviewer agreed with AI recommendation \"Approve\" and confirmed the decision."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern H2 – Assisted Adjudication",
+      "patternDescription": "One or more rules landed near the decision boundary. AI confidence fell inside the 60–85% band, so the claim was routed to a reviewer with its recommendation pre-filled instead of auto-settling.",
+      "reason": "AI confidence (78%) fell within the assisted-review band (60–85%) due to one or more borderline rule checks, so the claim was queued for a human reviewer with the AI's recommendation attached."
+    }
+  },
+  "CLM-2026-20512": {
+    "caseId": "CLM-2026-20512",
+    "claimant": {
+      "name": "C. Bhatt",
+      "policyNumber": "POL-HL-20091",
+      "city": "Delhi NCR",
+      "claimAmount": 98003
+    },
+    "incident": {
+      "date": "2026-07-21",
+      "description": "Hospitalization for treatment following diagnosis at network hospital; cashless claim requested."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Network Hospital Verification",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Pre-existing Condition Waiting Period",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r4",
+        "label": "Itemized Bill Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Diagnosis-Treatment Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "Sum Insured within Limit",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Hospital Discharge Summary",
+        "fileType": "PDF",
+        "masked": "Patient ID ••••812",
+        "revealed": "Patient ID PT44812"
+      },
+      {
+        "id": "doc2",
+        "name": "Itemized Hospital Bill",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 2,18,300"
+      },
+      {
+        "id": "doc3",
+        "name": "Government ID Proof",
+        "fileType": "PDF",
+        "masked": "XXXX XXXX 6021",
+        "revealed": "4821 5590 6021"
+      },
+      {
+        "id": "doc4",
+        "name": "Doctor's Prescription",
+        "fileType": "PDF",
+        "masked": "Rx ID ••••39",
+        "revealed": "Rx ID PR7139"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-16T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-16T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 72%."
+      },
+      {
+        "at": "2026-07-16T06:30:00.000Z",
+        "title": "Assigned to Reviewer",
+        "actor": "Queue Manager",
+        "detail": "Case routed to claims adjuster for human-in-the-loop review."
+      },
+      {
+        "at": "2026-07-16T11:30:00.000Z",
+        "title": "Reviewer Overrode AI Recommendation",
+        "actor": "Claims Adjuster",
+        "detail": "AI recommended \"Approve\"; reviewer instead selected \"Request More Info\" after manual assessment."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern H2 – Assisted Adjudication",
+      "patternDescription": "One or more rules landed near the decision boundary. AI confidence fell inside the 60–85% band, so the claim was routed to a reviewer with its recommendation pre-filled instead of auto-settling.",
+      "reason": "AI confidence (72%) fell within the assisted-review band (60–85%) due to one or more borderline rule checks, so the claim was queued for a human reviewer with the AI's recommendation attached."
+    }
+  },
+  "CLM-2026-20513": {
+    "caseId": "CLM-2026-20513",
+    "claimant": {
+      "name": "O. Malhotra",
+      "policyNumber": "POL-MT-20098",
+      "city": "Kochi",
+      "claimAmount": 97794
+    },
+    "incident": {
+      "date": "2026-07-22",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-17T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-17T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 68%."
+      },
+      {
+        "at": "2026-07-17T06:30:00.000Z",
+        "title": "Assigned to Reviewer",
+        "actor": "Queue Manager",
+        "detail": "Case routed to claims adjuster for human-in-the-loop review."
+      },
+      {
+        "at": "2026-07-17T11:30:00.000Z",
+        "title": "Reviewer Confirmed AI Recommendation",
+        "actor": "Claims Adjuster",
+        "detail": "Reviewer agreed with AI recommendation \"Partial Approve\" and confirmed the decision."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern H2 – Assisted Adjudication",
+      "patternDescription": "One or more rules landed near the decision boundary. AI confidence fell inside the 60–85% band, so the claim was routed to a reviewer with its recommendation pre-filled instead of auto-settling.",
+      "reason": "AI confidence (68%) fell within the assisted-review band (60–85%) due to one or more borderline rule checks, so the claim was queued for a human reviewer with the AI's recommendation attached."
+    }
+  },
+  "CLM-2026-20514": {
+    "caseId": "CLM-2026-20514",
+    "claimant": {
+      "name": "G. Sinha",
+      "policyNumber": "POL-HL-20105",
+      "city": "Ahmedabad",
+      "claimAmount": 108465
+    },
+    "incident": {
+      "date": "2026-07-23",
+      "description": "Hospitalization for treatment following diagnosis at network hospital; cashless claim requested."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Network Hospital Verification",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Pre-existing Condition Waiting Period",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r4",
+        "label": "Itemized Bill Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Diagnosis-Treatment Consistency",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r6",
+        "label": "Sum Insured within Limit",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Hospital Discharge Summary",
+        "fileType": "PDF",
+        "masked": "Patient ID ••••812",
+        "revealed": "Patient ID PT44812"
+      },
+      {
+        "id": "doc2",
+        "name": "Itemized Hospital Bill",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 2,18,300"
+      },
+      {
+        "id": "doc3",
+        "name": "Government ID Proof",
+        "fileType": "PDF",
+        "masked": "XXXX XXXX 6021",
+        "revealed": "4821 5590 6021"
+      },
+      {
+        "id": "doc4",
+        "name": "Doctor's Prescription",
+        "fileType": "PDF",
+        "masked": "Rx ID ••••39",
+        "revealed": "Rx ID PR7139"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-18T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-18T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 74%."
+      },
+      {
+        "at": "2026-07-18T06:30:00.000Z",
+        "title": "Assigned to Reviewer",
+        "actor": "Queue Manager",
+        "detail": "Case routed to claims adjuster for human-in-the-loop review."
+      },
+      {
+        "at": "2026-07-18T11:30:00.000Z",
+        "title": "Reviewer Overrode AI Recommendation",
+        "actor": "Claims Adjuster",
+        "detail": "AI recommended \"Approve\"; reviewer instead selected \"Reject\" after manual assessment."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern H2 – Assisted Adjudication",
+      "patternDescription": "One or more rules landed near the decision boundary. AI confidence fell inside the 60–85% band, so the claim was routed to a reviewer with its recommendation pre-filled instead of auto-settling.",
+      "reason": "AI confidence (74%) fell within the assisted-review band (60–85%) due to one or more borderline rule checks, so the claim was queued for a human reviewer with the AI's recommendation attached."
+    }
+  },
+  "CLM-2026-20515": {
+    "caseId": "CLM-2026-20515",
+    "claimant": {
+      "name": "F. D’Souza",
+      "policyNumber": "POL-MT-20112",
+      "city": "Mumbai",
+      "claimAmount": 105336
+    },
+    "incident": {
+      "date": "2026-07-24",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-19T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-19T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 81%."
+      },
+      {
+        "at": "2026-07-19T06:30:00.000Z",
+        "title": "Assigned to Reviewer",
+        "actor": "Queue Manager",
+        "detail": "Case routed to claims adjuster for human-in-the-loop review."
+      },
+      {
+        "at": "2026-07-19T11:30:00.000Z",
+        "title": "Reviewer Confirmed AI Recommendation",
+        "actor": "Claims Adjuster",
+        "detail": "Reviewer agreed with AI recommendation \"Approve\" and confirmed the decision."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern H2 – Assisted Adjudication",
+      "patternDescription": "One or more rules landed near the decision boundary. AI confidence fell inside the 60–85% band, so the claim was routed to a reviewer with its recommendation pre-filled instead of auto-settling.",
+      "reason": "AI confidence (81%) fell within the assisted-review band (60–85%) due to one or more borderline rule checks, so the claim was queued for a human reviewer with the AI's recommendation attached."
+    }
+  },
+  "CLM-2026-20516": {
+    "caseId": "CLM-2026-20516",
+    "claimant": {
+      "name": "B. Chandran",
+      "policyNumber": "POL-MT-20119",
+      "city": "Bengaluru",
+      "claimAmount": 109107
+    },
+    "incident": {
+      "date": "2026-07-25",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-20T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-20T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 65%."
+      },
+      {
+        "at": "2026-07-20T06:30:00.000Z",
+        "title": "Assigned to Reviewer",
+        "actor": "Queue Manager",
+        "detail": "Case routed to claims adjuster for human-in-the-loop review."
+      },
+      {
+        "at": "2026-07-20T11:30:00.000Z",
+        "title": "Reviewer Overrode AI Recommendation",
+        "actor": "Claims Adjuster",
+        "detail": "AI recommended \"Partial Approve\"; reviewer instead selected \"Approve\" after manual assessment."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern H2 – Assisted Adjudication",
+      "patternDescription": "One or more rules landed near the decision boundary. AI confidence fell inside the 60–85% band, so the claim was routed to a reviewer with its recommendation pre-filled instead of auto-settling.",
+      "reason": "AI confidence (65%) fell within the assisted-review band (60–85%) due to one or more borderline rule checks, so the claim was queued for a human reviewer with the AI's recommendation attached."
+    }
+  },
+  "CLM-2026-20517": {
+    "caseId": "CLM-2026-20517",
+    "claimant": {
+      "name": "E. Krishnan",
+      "policyNumber": "POL-HL-20126",
+      "city": "Pune",
+      "claimAmount": 124158
+    },
+    "incident": {
+      "date": "2026-07-08",
+      "description": "Hospitalization for treatment following diagnosis at network hospital; cashless claim requested."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Network Hospital Verification",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Pre-existing Condition Waiting Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "Itemized Bill Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Diagnosis-Treatment Consistency",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r6",
+        "label": "Sum Insured within Limit",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Hospital Discharge Summary",
+        "fileType": "PDF",
+        "masked": "Patient ID ••••812",
+        "revealed": "Patient ID PT44812"
+      },
+      {
+        "id": "doc2",
+        "name": "Itemized Hospital Bill",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 2,18,300"
+      },
+      {
+        "id": "doc3",
+        "name": "Government ID Proof",
+        "fileType": "PDF",
+        "masked": "XXXX XXXX 6021",
+        "revealed": "4821 5590 6021"
+      },
+      {
+        "id": "doc4",
+        "name": "Doctor's Prescription",
+        "fileType": "PDF",
+        "masked": "Rx ID ••••39",
+        "revealed": "Rx ID PR7139"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-21T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-21T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 76%."
+      },
+      {
+        "at": "2026-07-21T06:30:00.000Z",
+        "title": "Assigned to Reviewer",
+        "actor": "Queue Manager",
+        "detail": "Case routed to claims adjuster for human-in-the-loop review."
+      },
+      {
+        "at": "2026-07-21T11:30:00.000Z",
+        "title": "Reviewer Confirmed AI Recommendation",
+        "actor": "Claims Adjuster",
+        "detail": "Reviewer agreed with AI recommendation \"Reject\" and confirmed the decision."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern H2 – Assisted Adjudication",
+      "patternDescription": "One or more rules landed near the decision boundary. AI confidence fell inside the 60–85% band, so the claim was routed to a reviewer with its recommendation pre-filled instead of auto-settling.",
+      "reason": "AI confidence (76%) fell within the assisted-review band (60–85%) due to one or more borderline rule checks, so the claim was queued for a human reviewer with the AI's recommendation attached."
+    }
+  },
+  "CLM-2026-20518": {
+    "caseId": "CLM-2026-20518",
+    "claimant": {
+      "name": "I. Kulkarni",
+      "policyNumber": "POL-MT-20133",
+      "city": "Chennai",
+      "claimAmount": 116649
+    },
+    "incident": {
+      "date": "2026-07-09",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-22T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-22T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 70%."
+      },
+      {
+        "at": "2026-07-22T06:30:00.000Z",
+        "title": "Assigned to Reviewer",
+        "actor": "Queue Manager",
+        "detail": "Case routed to claims adjuster for human-in-the-loop review."
+      },
+      {
+        "at": "2026-07-22T11:30:00.000Z",
+        "title": "Reviewer Confirmed AI Recommendation",
+        "actor": "Claims Adjuster",
+        "detail": "Reviewer agreed with AI recommendation \"Approve\" and confirmed the decision."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern H2 – Assisted Adjudication",
+      "patternDescription": "One or more rules landed near the decision boundary. AI confidence fell inside the 60–85% band, so the claim was routed to a reviewer with its recommendation pre-filled instead of auto-settling.",
+      "reason": "AI confidence (70%) fell within the assisted-review band (60–85%) due to one or more borderline rule checks, so the claim was queued for a human reviewer with the AI's recommendation attached."
+    }
+  },
+  "CLM-2026-20519": {
+    "caseId": "CLM-2026-20519",
+    "claimant": {
+      "name": "W. Joshi",
+      "policyNumber": "POL-HL-20140",
+      "city": "Hyderabad",
+      "claimAmount": 134620
+    },
+    "incident": {
+      "date": "2026-07-10",
+      "description": "Hospitalization for treatment following diagnosis at network hospital; cashless claim requested."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Network Hospital Verification",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r3",
+        "label": "Pre-existing Condition Waiting Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "Itemized Bill Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Diagnosis-Treatment Consistency",
+        "result": "flagged",
+        "detail": "Value near threshold boundary — routed for review."
+      },
+      {
+        "id": "r6",
+        "label": "Sum Insured within Limit",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Hospital Discharge Summary",
+        "fileType": "PDF",
+        "masked": "Patient ID ••••812",
+        "revealed": "Patient ID PT44812"
+      },
+      {
+        "id": "doc2",
+        "name": "Itemized Hospital Bill",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 2,18,300"
+      },
+      {
+        "id": "doc3",
+        "name": "Government ID Proof",
+        "fileType": "PDF",
+        "masked": "XXXX XXXX 6021",
+        "revealed": "4821 5590 6021"
+      },
+      {
+        "id": "doc4",
+        "name": "Doctor's Prescription",
+        "fileType": "PDF",
+        "masked": "Rx ID ••••39",
+        "revealed": "Rx ID PR7139"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-23T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-23T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 69%."
+      },
+      {
+        "at": "2026-07-23T06:30:00.000Z",
+        "title": "Assigned to Reviewer",
+        "actor": "Queue Manager",
+        "detail": "Case routed to claims adjuster for human-in-the-loop review."
+      },
+      {
+        "at": "2026-07-23T11:30:00.000Z",
+        "title": "Reviewer Confirmed AI Recommendation",
+        "actor": "Claims Adjuster",
+        "detail": "Reviewer agreed with AI recommendation \"Request More Info\" and confirmed the decision."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern H2 – Assisted Adjudication",
+      "patternDescription": "One or more rules landed near the decision boundary. AI confidence fell inside the 60–85% band, so the claim was routed to a reviewer with its recommendation pre-filled instead of auto-settling.",
+      "reason": "AI confidence (69%) fell within the assisted-review band (60–85%) due to one or more borderline rule checks, so the claim was queued for a human reviewer with the AI's recommendation attached."
+    }
+  },
+  "CLM-2026-30601": {
+    "caseId": "CLM-2026-30601",
+    "claimant": {
+      "name": "Y. Thakur",
+      "policyNumber": "POL-MT-20147",
+      "city": "Delhi NCR",
+      "claimAmount": 124191
+    },
+    "incident": {
+      "date": "2026-07-11",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-22T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-22T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 41%."
+      },
+      {
+        "at": "2026-07-22T07:30:00.000Z",
+        "title": "Escalated to Exception Queue",
+        "actor": "AI Engine",
+        "detail": "Rule failures detected; case flagged for specialist investigation."
+      },
+      {
+        "at": "2026-07-22T23:30:00.000Z",
+        "title": "Investigation Opened",
+        "actor": "SIU Specialist",
+        "detail": "Manual verification of documents and rule mismatches initiated."
+      },
+      {
+        "at": "2026-07-23T09:30:00.000Z",
+        "title": "Specialist Confirmed AI Recommendation",
+        "actor": "SIU Specialist",
+        "detail": "Investigation findings aligned with AI recommendation \"Manual Review\"."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern E3 – Manual Investigation",
+      "patternDescription": "Rule failures or data inconsistencies were detected that fall outside any recognized historical pattern. AI confidence dropped below 60%, triggering escalation to a specialist for full manual review.",
+      "reason": "AI confidence (41%) fell below the 60% safe-automation floor after rule failures were detected, so the claim was escalated as an exception for specialist investigation."
+    }
+  },
+  "CLM-2026-30602": {
+    "caseId": "CLM-2026-30602",
+    "claimant": {
+      "name": "Z. Ahluwalia",
+      "policyNumber": "POL-HL-20154",
+      "city": "Kochi",
+      "claimAmount": 145082
+    },
+    "incident": {
+      "date": "2026-07-12",
+      "description": "Hospitalization for treatment following diagnosis at network hospital; cashless claim requested."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Network Hospital Verification",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      },
+      {
+        "id": "r3",
+        "label": "Pre-existing Condition Waiting Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "Itemized Bill Match",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      },
+      {
+        "id": "r5",
+        "label": "Diagnosis-Treatment Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "Sum Insured within Limit",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Hospital Discharge Summary",
+        "fileType": "PDF",
+        "masked": "Patient ID ••••812",
+        "revealed": "Patient ID PT44812"
+      },
+      {
+        "id": "doc2",
+        "name": "Itemized Hospital Bill",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 2,18,300"
+      },
+      {
+        "id": "doc3",
+        "name": "Government ID Proof",
+        "fileType": "PDF",
+        "masked": "XXXX XXXX 6021",
+        "revealed": "4821 5590 6021"
+      },
+      {
+        "id": "doc4",
+        "name": "Doctor's Prescription",
+        "fileType": "PDF",
+        "masked": "Rx ID ••••39",
+        "revealed": "Rx ID PR7139"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-23T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-23T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 38%."
+      },
+      {
+        "at": "2026-07-23T07:30:00.000Z",
+        "title": "Escalated to Exception Queue",
+        "actor": "AI Engine",
+        "detail": "Rule failures detected; case flagged for specialist investigation."
+      },
+      {
+        "at": "2026-07-23T23:30:00.000Z",
+        "title": "Investigation Opened",
+        "actor": "SIU Specialist",
+        "detail": "Manual verification of documents and rule mismatches initiated."
+      },
+      {
+        "at": "2026-07-24T09:30:00.000Z",
+        "title": "Specialist Overrode AI Recommendation",
+        "actor": "SIU Specialist",
+        "detail": "AI recommended \"Manual Review\"; specialist instead selected \"Reject\" following investigation."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern E3 – Manual Investigation",
+      "patternDescription": "Rule failures or data inconsistencies were detected that fall outside any recognized historical pattern. AI confidence dropped below 60%, triggering escalation to a specialist for full manual review.",
+      "reason": "AI confidence (38%) fell below the 60% safe-automation floor after rule failures were detected, so the claim was escalated as an exception for specialist investigation."
+    }
+  },
+  "CLM-2026-30603": {
+    "caseId": "CLM-2026-30603",
+    "claimant": {
+      "name": "Q. Bajaj",
+      "policyNumber": "POL-MT-20161",
+      "city": "Ahmedabad",
+      "claimAmount": 131733
+    },
+    "incident": {
+      "date": "2026-07-13",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-24T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-24T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 45%."
+      },
+      {
+        "at": "2026-07-24T07:30:00.000Z",
+        "title": "Escalated to Exception Queue",
+        "actor": "AI Engine",
+        "detail": "Rule failures detected; case flagged for specialist investigation."
+      },
+      {
+        "at": "2026-07-24T23:30:00.000Z",
+        "title": "Investigation Opened",
+        "actor": "SIU Specialist",
+        "detail": "Manual verification of documents and rule mismatches initiated."
+      },
+      {
+        "at": "2026-07-25T09:30:00.000Z",
+        "title": "Specialist Confirmed AI Recommendation",
+        "actor": "SIU Specialist",
+        "detail": "Investigation findings aligned with AI recommendation \"Investigate\"."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern E3 – Manual Investigation",
+      "patternDescription": "Rule failures or data inconsistencies were detected that fall outside any recognized historical pattern. AI confidence dropped below 60%, triggering escalation to a specialist for full manual review.",
+      "reason": "AI confidence (45%) fell below the 60% safe-automation floor after rule failures were detected, so the claim was escalated as an exception for specialist investigation."
+    }
+  },
+  "CLM-2026-30604": {
+    "caseId": "CLM-2026-30604",
+    "claimant": {
+      "name": "U. Trivedi",
+      "policyNumber": "POL-HL-20168",
+      "city": "Mumbai",
+      "claimAmount": 155544
+    },
+    "incident": {
+      "date": "2026-07-14",
+      "description": "Hospitalization for treatment following diagnosis at network hospital; cashless claim requested."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Network Hospital Verification",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      },
+      {
+        "id": "r3",
+        "label": "Pre-existing Condition Waiting Period",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "Itemized Bill Match",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r5",
+        "label": "Diagnosis-Treatment Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "Sum Insured within Limit",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Hospital Discharge Summary",
+        "fileType": "PDF",
+        "masked": "Patient ID ••••812",
+        "revealed": "Patient ID PT44812"
+      },
+      {
+        "id": "doc2",
+        "name": "Itemized Hospital Bill",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 2,18,300"
+      },
+      {
+        "id": "doc3",
+        "name": "Government ID Proof",
+        "fileType": "PDF",
+        "masked": "XXXX XXXX 6021",
+        "revealed": "4821 5590 6021"
+      },
+      {
+        "id": "doc4",
+        "name": "Doctor's Prescription",
+        "fileType": "PDF",
+        "masked": "Rx ID ••••39",
+        "revealed": "Rx ID PR7139"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-25T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-25T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 33%."
+      },
+      {
+        "at": "2026-07-25T07:30:00.000Z",
+        "title": "Escalated to Exception Queue",
+        "actor": "AI Engine",
+        "detail": "Rule failures detected; case flagged for specialist investigation."
+      },
+      {
+        "at": "2026-07-25T23:30:00.000Z",
+        "title": "Investigation Opened",
+        "actor": "SIU Specialist",
+        "detail": "Manual verification of documents and rule mismatches initiated."
+      },
+      {
+        "at": "2026-07-26T09:30:00.000Z",
+        "title": "Specialist Overrode AI Recommendation",
+        "actor": "SIU Specialist",
+        "detail": "AI recommended \"Manual Review\"; specialist instead selected \"Approve\" following investigation."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern E3 – Manual Investigation",
+      "patternDescription": "Rule failures or data inconsistencies were detected that fall outside any recognized historical pattern. AI confidence dropped below 60%, triggering escalation to a specialist for full manual review.",
+      "reason": "AI confidence (33%) fell below the 60% safe-automation floor after rule failures were detected, so the claim was escalated as an exception for specialist investigation."
+    }
+  },
+  "CLM-2026-30605": {
+    "caseId": "CLM-2026-30605",
+    "claimant": {
+      "name": "X. Sengupta",
+      "policyNumber": "POL-MT-20175",
+      "city": "Bengaluru",
+      "claimAmount": 139275
+    },
+    "incident": {
+      "date": "2026-07-15",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-26T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-26T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 49%."
+      },
+      {
+        "at": "2026-07-26T07:30:00.000Z",
+        "title": "Escalated to Exception Queue",
+        "actor": "AI Engine",
+        "detail": "Rule failures detected; case flagged for specialist investigation."
+      },
+      {
+        "at": "2026-07-26T23:30:00.000Z",
+        "title": "Investigation Opened",
+        "actor": "SIU Specialist",
+        "detail": "Manual verification of documents and rule mismatches initiated."
+      },
+      {
+        "at": "2026-07-27T09:30:00.000Z",
+        "title": "Specialist Overrode AI Recommendation",
+        "actor": "SIU Specialist",
+        "detail": "AI recommended \"Investigate\"; specialist instead selected \"Manual Review\" following investigation."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern E3 – Manual Investigation",
+      "patternDescription": "Rule failures or data inconsistencies were detected that fall outside any recognized historical pattern. AI confidence dropped below 60%, triggering escalation to a specialist for full manual review.",
+      "reason": "AI confidence (49%) fell below the 60% safe-automation floor after rule failures were detected, so the claim was escalated as an exception for specialist investigation."
+    }
+  },
+  "CLM-2026-30606": {
+    "caseId": "CLM-2026-30606",
+    "claimant": {
+      "name": "S. Mathew",
+      "policyNumber": "POL-MT-20182",
+      "city": "Pune",
+      "claimAmount": 143046
+    },
+    "incident": {
+      "date": "2026-07-16",
+      "description": "Third-party collision reported on arterial road; vehicle towed to network garage."
+    },
+    "rules": [
+      {
+        "id": "r1",
+        "label": "Policy Active & Premium Paid",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r2",
+        "label": "Vehicle Registration Match",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      },
+      {
+        "id": "r3",
+        "label": "Driving License Validity",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r4",
+        "label": "No Prior Claim in Cooling Period",
+        "result": "failed",
+        "detail": "Mismatch against policy / submitted record."
+      },
+      {
+        "id": "r5",
+        "label": "Repair Estimate within Threshold",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      },
+      {
+        "id": "r6",
+        "label": "FIR / Accident Report Consistency",
+        "result": "passed",
+        "detail": "Matched expected value within tolerance."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc1",
+        "name": "Registration Certificate (RC)",
+        "fileType": "PDF",
+        "masked": "MH •• •• ••41",
+        "revealed": "MH 12 AB 3241"
+      },
+      {
+        "id": "doc2",
+        "name": "Driving License",
+        "fileType": "PDF",
+        "masked": "DL•••••••••297",
+        "revealed": "DL0420110123297"
+      },
+      {
+        "id": "doc3",
+        "name": "Accident / FIR Report",
+        "fileType": "PDF",
+        "masked": "FIR/••••/2026",
+        "revealed": "FIR/0842/2026"
+      },
+      {
+        "id": "doc4",
+        "name": "Repair Estimate Invoice",
+        "fileType": "PDF",
+        "masked": "₹ •,••,•••",
+        "revealed": "₹ 1,24,500"
+      }
+    ],
+    "timeline": [
+      {
+        "at": "2026-07-27T03:30:00.000Z",
+        "title": "Claim Submitted",
+        "actor": "Claimant",
+        "detail": "FNOL received via mobile app with supporting documents."
+      },
+      {
+        "at": "2026-07-27T04:30:00.000Z",
+        "title": "AI Triage Complete",
+        "actor": "AI Engine",
+        "detail": "Documents parsed, rules evaluated, confidence scored at 36%."
+      },
+      {
+        "at": "2026-07-27T07:30:00.000Z",
+        "title": "Escalated to Exception Queue",
+        "actor": "AI Engine",
+        "detail": "Rule failures detected; case flagged for specialist investigation."
+      },
+      {
+        "at": "2026-07-27T23:30:00.000Z",
+        "title": "Investigation Opened",
+        "actor": "SIU Specialist",
+        "detail": "Manual verification of documents and rule mismatches initiated."
+      },
+      {
+        "at": "2026-07-28T09:30:00.000Z",
+        "title": "Specialist Confirmed AI Recommendation",
+        "actor": "SIU Specialist",
+        "detail": "Investigation findings aligned with AI recommendation \"Investigate\"."
+      }
+    ],
+    "decision": {
+      "pattern": "Pattern E3 – Manual Investigation",
+      "patternDescription": "Rule failures or data inconsistencies were detected that fall outside any recognized historical pattern. AI confidence dropped below 60%, triggering escalation to a specialist for full manual review.",
+      "reason": "AI confidence (36%) fell below the 60% safe-automation floor after rule failures were detected, so the claim was escalated as an exception for specialist investigation."
+    }
+  }
+}

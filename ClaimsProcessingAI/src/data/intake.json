@@ -1,0 +1,790 @@
+[
+  {
+    "fnolId": "FNOL-2026-8801",
+    "channel": "app",
+    "claimantName": "A. Sharma",
+    "claimType": "Motor",
+    "receivedAt": "2026-08-03T08:12:00",
+    "photoAI": "Processed",
+    "documentAI": "Extracted",
+    "completeness": 100,
+    "status": "Ready for Review",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hi, I'd like to report a claim through the app.",
+        "at": "2026-08-03T08:12:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8801 for your Motor policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T02:43:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "My car was hit from behind at a signal this morning. Some damage to the rear bumper.",
+        "at": "2026-08-03T02:45:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Please share a few photos so our AI can assess the damage.",
+        "at": "2026-08-03T02:48:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📷 Photo attached",
+        "at": "2026-08-03T02:50:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Damage photo received and analyzed — severity and repair estimate captured.",
+        "at": "2026-08-03T02:51:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📄 Document attached",
+        "at": "2026-08-03T02:53:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Document received and auto-read — details extracted successfully.",
+        "at": "2026-08-03T02:54:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Thank you — your FNOL is complete and queued for review.",
+        "at": "2026-08-03T02:56:00.000Z"
+      }
+    ]
+  },
+  {
+    "fnolId": "FNOL-2026-8802",
+    "channel": "whatsapp",
+    "claimantName": "R. Iyer",
+    "claimType": "Health",
+    "receivedAt": "2026-08-03T08:24:00",
+    "photoAI": "Not Submitted",
+    "documentAI": "Extracted",
+    "completeness": 70,
+    "status": "Awaiting Documents",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hi, I need to file a claim.",
+        "at": "2026-08-03T08:24:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8802 for your Health policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T02:55:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "I was hospitalized for treatment and need to file a cashless claim.",
+        "at": "2026-08-03T02:57:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Could you share a few photos of the damage / discharge summary when convenient?",
+        "at": "2026-08-03T03:00:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📄 Document attached",
+        "at": "2026-08-03T03:02:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Document received and auto-read — details extracted successfully.",
+        "at": "2026-08-03T03:03:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "We'll follow up shortly for the remaining details.",
+        "at": "2026-08-03T03:05:00.000Z"
+      }
+    ]
+  },
+  {
+    "fnolId": "FNOL-2026-8803",
+    "channel": "call",
+    "claimantName": "K. Nair",
+    "claimType": "Motor",
+    "receivedAt": "2026-08-03T08:31:00",
+    "photoAI": "Pending",
+    "documentAI": "Pending",
+    "completeness": 35,
+    "status": "Awaiting Documents",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hello, I'm calling to report an incident for my policy.",
+        "at": "2026-08-03T08:31:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8803 for your Motor policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T03:02:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "My car was hit from behind at a signal this morning. Some damage to the rear bumper.",
+        "at": "2026-08-03T03:04:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Please share a few photos so our AI can assess the damage.",
+        "at": "2026-08-03T03:07:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📷 Photo attached",
+        "at": "2026-08-03T03:09:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Damage photo received — analysis in progress.",
+        "at": "2026-08-03T03:10:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "We still need your ID proof / policy document to proceed — you can send it here anytime.",
+        "at": "2026-08-03T03:12:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "We'll follow up shortly for the remaining details.",
+        "at": "2026-08-03T03:14:00.000Z"
+      }
+    ],
+    "agentName": "Priya Menon",
+    "durationSec": 256
+  },
+  {
+    "fnolId": "FNOL-2026-8804",
+    "channel": "app",
+    "claimantName": "S. Verma",
+    "claimType": "Motor",
+    "receivedAt": "2026-08-03T08:45:00",
+    "photoAI": "Processed",
+    "documentAI": "Extracted",
+    "completeness": 100,
+    "status": "Case Created",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hi, I'd like to report a claim through the app.",
+        "at": "2026-08-03T08:45:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8804 for your Motor policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T03:16:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "My car was hit from behind at a signal this morning. Some damage to the rear bumper.",
+        "at": "2026-08-03T03:18:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Please share a few photos so our AI can assess the damage.",
+        "at": "2026-08-03T03:21:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📷 Photo attached",
+        "at": "2026-08-03T03:23:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Damage photo received and analyzed — severity and repair estimate captured.",
+        "at": "2026-08-03T03:24:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📄 Document attached",
+        "at": "2026-08-03T03:26:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Document received and auto-read — details extracted successfully.",
+        "at": "2026-08-03T03:27:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "All set — your claim has been registered as a case and is now with our review team.",
+        "at": "2026-08-03T03:29:00.000Z"
+      }
+    ]
+  },
+  {
+    "fnolId": "FNOL-2026-8805",
+    "channel": "whatsapp",
+    "claimantName": "P. Rao",
+    "claimType": "Health",
+    "receivedAt": "2026-08-03T09:02:00",
+    "photoAI": "Not Submitted",
+    "documentAI": "Pending",
+    "completeness": 40,
+    "status": "Awaiting Documents",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hi, I need to file a claim.",
+        "at": "2026-08-03T09:02:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8805 for your Health policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T03:33:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "I was hospitalized for treatment and need to file a cashless claim.",
+        "at": "2026-08-03T03:35:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Could you share a few photos of the damage / discharge summary when convenient?",
+        "at": "2026-08-03T03:38:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "We still need your ID proof / policy document to proceed — you can send it here anytime.",
+        "at": "2026-08-03T03:40:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "We'll follow up shortly for the remaining details.",
+        "at": "2026-08-03T03:42:00.000Z"
+      }
+    ]
+  },
+  {
+    "fnolId": "FNOL-2026-8806",
+    "channel": "app",
+    "claimantName": "M. Gupta",
+    "claimType": "Health",
+    "receivedAt": "2026-08-03T09:10:00",
+    "photoAI": "Not Submitted",
+    "documentAI": "Extracted",
+    "completeness": 85,
+    "status": "Ready for Review",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hi, I'd like to report a claim through the app.",
+        "at": "2026-08-03T09:10:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8806 for your Health policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T03:41:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "I was hospitalized for treatment and need to file a cashless claim.",
+        "at": "2026-08-03T03:43:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Could you share a few photos of the damage / discharge summary when convenient?",
+        "at": "2026-08-03T03:46:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📄 Document attached",
+        "at": "2026-08-03T03:48:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Document received and auto-read — details extracted successfully.",
+        "at": "2026-08-03T03:49:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Thank you — your FNOL is complete and queued for review.",
+        "at": "2026-08-03T03:51:00.000Z"
+      }
+    ]
+  },
+  {
+    "fnolId": "FNOL-2026-8807",
+    "channel": "call",
+    "claimantName": "N. Reddy",
+    "claimType": "Motor",
+    "receivedAt": "2026-08-03T09:18:00",
+    "photoAI": "Pending",
+    "documentAI": "Pending",
+    "completeness": 20,
+    "status": "Awaiting Documents",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hello, I'm calling to report an incident for my policy.",
+        "at": "2026-08-03T09:18:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8807 for your Motor policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T03:49:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "My car was hit from behind at a signal this morning. Some damage to the rear bumper.",
+        "at": "2026-08-03T03:51:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Please share a few photos so our AI can assess the damage.",
+        "at": "2026-08-03T03:54:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📷 Photo attached",
+        "at": "2026-08-03T03:56:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Damage photo received — analysis in progress.",
+        "at": "2026-08-03T03:57:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "We still need your ID proof / policy document to proceed — you can send it here anytime.",
+        "at": "2026-08-03T03:59:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "We'll follow up shortly for the remaining details.",
+        "at": "2026-08-03T04:01:00.000Z"
+      }
+    ],
+    "agentName": "Arjun Nair",
+    "durationSec": 256
+  },
+  {
+    "fnolId": "FNOL-2026-8808",
+    "channel": "app",
+    "claimantName": "D. Menon",
+    "claimType": "Motor",
+    "receivedAt": "2026-08-03T09:33:00",
+    "photoAI": "Processed",
+    "documentAI": "Extracted",
+    "completeness": 100,
+    "status": "Case Created",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hi, I'd like to report a claim through the app.",
+        "at": "2026-08-03T09:33:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8808 for your Motor policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T04:04:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "My car was hit from behind at a signal this morning. Some damage to the rear bumper.",
+        "at": "2026-08-03T04:06:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Please share a few photos so our AI can assess the damage.",
+        "at": "2026-08-03T04:09:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📷 Photo attached",
+        "at": "2026-08-03T04:11:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Damage photo received and analyzed — severity and repair estimate captured.",
+        "at": "2026-08-03T04:12:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📄 Document attached",
+        "at": "2026-08-03T04:14:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Document received and auto-read — details extracted successfully.",
+        "at": "2026-08-03T04:15:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "All set — your claim has been registered as a case and is now with our review team.",
+        "at": "2026-08-03T04:17:00.000Z"
+      }
+    ]
+  },
+  {
+    "fnolId": "FNOL-2026-8809",
+    "channel": "whatsapp",
+    "claimantName": "V. Kapoor",
+    "claimType": "Motor",
+    "receivedAt": "2026-08-03T09:47:00",
+    "photoAI": "Processed",
+    "documentAI": "Extracted",
+    "completeness": 100,
+    "status": "Ready for Review",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hi, I need to file a claim.",
+        "at": "2026-08-03T09:47:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8809 for your Motor policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T04:18:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "My car was hit from behind at a signal this morning. Some damage to the rear bumper.",
+        "at": "2026-08-03T04:20:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Please share a few photos so our AI can assess the damage.",
+        "at": "2026-08-03T04:23:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📷 Photo attached",
+        "at": "2026-08-03T04:25:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Damage photo received and analyzed — severity and repair estimate captured.",
+        "at": "2026-08-03T04:26:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📄 Document attached",
+        "at": "2026-08-03T04:28:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Document received and auto-read — details extracted successfully.",
+        "at": "2026-08-03T04:29:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Thank you — your FNOL is complete and queued for review.",
+        "at": "2026-08-03T04:31:00.000Z"
+      }
+    ]
+  },
+  {
+    "fnolId": "FNOL-2026-8810",
+    "channel": "call",
+    "claimantName": "J. Pillai",
+    "claimType": "Health",
+    "receivedAt": "2026-08-03T10:02:00",
+    "photoAI": "Not Submitted",
+    "documentAI": "Pending",
+    "completeness": 30,
+    "status": "Awaiting Documents",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hello, I'm calling to report an incident for my policy.",
+        "at": "2026-08-03T10:02:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8810 for your Health policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T04:33:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "I was hospitalized for treatment and need to file a cashless claim.",
+        "at": "2026-08-03T04:35:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Could you share a few photos of the damage / discharge summary when convenient?",
+        "at": "2026-08-03T04:38:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "We still need your ID proof / policy document to proceed — you can send it here anytime.",
+        "at": "2026-08-03T04:40:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "We'll follow up shortly for the remaining details.",
+        "at": "2026-08-03T04:42:00.000Z"
+      }
+    ],
+    "agentName": "Fatima Sheikh",
+    "durationSec": 462
+  },
+  {
+    "fnolId": "FNOL-2026-8811",
+    "channel": "app",
+    "claimantName": "T. Chawla",
+    "claimType": "Health",
+    "receivedAt": "2026-08-03T10:15:00",
+    "photoAI": "Not Submitted",
+    "documentAI": "Extracted",
+    "completeness": 90,
+    "status": "Ready for Review",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hi, I'd like to report a claim through the app.",
+        "at": "2026-08-03T10:15:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8811 for your Health policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T04:46:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "I was hospitalized for treatment and need to file a cashless claim.",
+        "at": "2026-08-03T04:48:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Could you share a few photos of the damage / discharge summary when convenient?",
+        "at": "2026-08-03T04:51:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📄 Document attached",
+        "at": "2026-08-03T04:53:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Document received and auto-read — details extracted successfully.",
+        "at": "2026-08-03T04:54:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Thank you — your FNOL is complete and queued for review.",
+        "at": "2026-08-03T04:56:00.000Z"
+      }
+    ]
+  },
+  {
+    "fnolId": "FNOL-2026-8812",
+    "channel": "whatsapp",
+    "claimantName": "L. Bose",
+    "claimType": "Motor",
+    "receivedAt": "2026-08-03T10:29:00",
+    "photoAI": "Processed",
+    "documentAI": "Pending",
+    "completeness": 65,
+    "status": "Awaiting Documents",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hi, I need to file a claim.",
+        "at": "2026-08-03T10:29:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8812 for your Motor policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T05:00:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "My car was hit from behind at a signal this morning. Some damage to the rear bumper.",
+        "at": "2026-08-03T05:02:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Please share a few photos so our AI can assess the damage.",
+        "at": "2026-08-03T05:05:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📷 Photo attached",
+        "at": "2026-08-03T05:07:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Damage photo received and analyzed — severity and repair estimate captured.",
+        "at": "2026-08-03T05:08:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "We still need your ID proof / policy document to proceed — you can send it here anytime.",
+        "at": "2026-08-03T05:10:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "We'll follow up shortly for the remaining details.",
+        "at": "2026-08-03T05:12:00.000Z"
+      }
+    ]
+  },
+  {
+    "fnolId": "FNOL-2026-8813",
+    "channel": "app",
+    "claimantName": "H. Desai",
+    "claimType": "Motor",
+    "receivedAt": "2026-08-03T10:41:00",
+    "photoAI": "Processed",
+    "documentAI": "Extracted",
+    "completeness": 100,
+    "status": "Case Created",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hi, I'd like to report a claim through the app.",
+        "at": "2026-08-03T10:41:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8813 for your Motor policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T05:12:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "My car was hit from behind at a signal this morning. Some damage to the rear bumper.",
+        "at": "2026-08-03T05:14:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Please share a few photos so our AI can assess the damage.",
+        "at": "2026-08-03T05:17:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📷 Photo attached",
+        "at": "2026-08-03T05:19:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Damage photo received and analyzed — severity and repair estimate captured.",
+        "at": "2026-08-03T05:20:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📄 Document attached",
+        "at": "2026-08-03T05:22:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Document received and auto-read — details extracted successfully.",
+        "at": "2026-08-03T05:23:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "All set — your claim has been registered as a case and is now with our review team.",
+        "at": "2026-08-03T05:25:00.000Z"
+      }
+    ]
+  },
+  {
+    "fnolId": "FNOL-2026-8814",
+    "channel": "call",
+    "claimantName": "C. Bhatt",
+    "claimType": "Health",
+    "receivedAt": "2026-08-03T10:58:00",
+    "photoAI": "Not Submitted",
+    "documentAI": "Pending",
+    "completeness": 25,
+    "status": "Awaiting Documents",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hello, I'm calling to report an incident for my policy.",
+        "at": "2026-08-03T10:58:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8814 for your Health policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T05:29:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "I was hospitalized for treatment and need to file a cashless claim.",
+        "at": "2026-08-03T05:31:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Could you share a few photos of the damage / discharge summary when convenient?",
+        "at": "2026-08-03T05:34:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "We still need your ID proof / policy document to proceed — you can send it here anytime.",
+        "at": "2026-08-03T05:36:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "We'll follow up shortly for the remaining details.",
+        "at": "2026-08-03T05:38:00.000Z"
+      }
+    ],
+    "agentName": "Rohit Sen",
+    "durationSec": 462
+  },
+  {
+    "fnolId": "FNOL-2026-8815",
+    "channel": "app",
+    "claimantName": "O. Malhotra",
+    "claimType": "Motor",
+    "receivedAt": "2026-08-03T11:10:00",
+    "photoAI": "Processed",
+    "documentAI": "Extracted",
+    "completeness": 100,
+    "status": "Ready for Review",
+    "messages": [
+      {
+        "from": "claimant",
+        "text": "Hi, I'd like to report a claim through the app.",
+        "at": "2026-08-03T11:10:00"
+      },
+      {
+        "from": "system",
+        "text": "Thanks — I've opened FNOL FNOL-2026-8815 for your Motor policy. Could you briefly describe what happened?",
+        "at": "2026-08-03T05:41:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "My car was hit from behind at a signal this morning. Some damage to the rear bumper.",
+        "at": "2026-08-03T05:43:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Please share a few photos so our AI can assess the damage.",
+        "at": "2026-08-03T05:46:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📷 Photo attached",
+        "at": "2026-08-03T05:48:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Damage photo received and analyzed — severity and repair estimate captured.",
+        "at": "2026-08-03T05:49:00.000Z"
+      },
+      {
+        "from": "claimant",
+        "text": "📄 Document attached",
+        "at": "2026-08-03T05:51:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Document received and auto-read — details extracted successfully.",
+        "at": "2026-08-03T05:52:00.000Z"
+      },
+      {
+        "from": "system",
+        "text": "Thank you — your FNOL is complete and queued for review.",
+        "at": "2026-08-03T05:54:00.000Z"
+      }
+    ]
+  }
+]

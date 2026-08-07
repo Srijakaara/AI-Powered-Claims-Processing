@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Segoe UI", Roboto, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+
+  /* Brand — single-hue indigo/navy scale */
+  --color-navy-50: #eef2ff;
+  --color-navy-100: #e0e7ff;
+  --color-navy-200: #c7d2fe;
+  --color-navy-300: #a5b4fc;
+  --color-navy-400: #818cf8;
+  --color-navy-500: #6366f1;
+  --color-navy-600: #4f46e5;
+  --color-navy-700: #4338ca;
+  --color-navy-800: #3730a3;
+  --color-navy-900: #312e81;
+  --color-navy-950: #1e1b4b;
+
+  /* Accent/CTA reuses the brand hue */
+  --color-orange-50: var(--color-navy-50);
+  --color-orange-100: var(--color-navy-100);
+  --color-orange-200: var(--color-navy-200);
+  --color-orange-300: var(--color-navy-300);
+  --color-orange-400: var(--color-navy-400);
+  --color-orange-500: var(--color-navy-500);
+  --color-orange-600: var(--color-navy-600);
+  --color-orange-700: var(--color-navy-700);
+  --color-orange-800: var(--color-navy-800);
+  --color-orange-900: var(--color-navy-900);
+
+  /* Semantic status colors */
+  --color-success: #0ca30c;
+  --color-success-100: #dcf6dc;
+  --color-warning: #a06400;
+  --color-warning-100: #f8ecd2;
+  --color-danger: #f43f5e;
+  --color-danger-100: #ffe4e8;
+
+  /* Chart / data-viz categorical palette */
+  --color-chart-blue: #3b82f6;
+  --color-chart-teal: #14b8a6;
+  --color-chart-amber: #f59e0b;
+  --color-chart-green: #22c55e;
+  --color-chart-purple: #a855f7;
+  --color-chart-red: #ef4444;
+}
+
+:root {
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --surface-muted: #f8f8fb;
+  --ink: #08060d;
+  --ink-muted: #6b6375;
+  --border: #e5e4e7;
+  --shadow: rgba(30, 27, 75, 0.08) 0 1px 2px, rgba(30, 27, 75, 0.06) 0 8px 24px -8px;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --surface: #1e1b4b;
+    --surface-raised: #241f5c;
+    --surface-muted: #171339;
+    --ink: #f3f4f6;
+    --ink-muted: #a5a3c4;
+    --border: rgba(165, 180, 252, 0.18);
+    --shadow: rgba(0, 0, 0, 0.4) 0 1px 2px, rgba(0, 0, 0, 0.35) 0 8px 24px -8px;
+  }
+}
+
+:root[data-theme="dark"] {
+  --surface: #1e1b4b;
+  --surface-raised: #241f5c;
+  --surface-muted: #171339;
+  --ink: #f3f4f6;
+  --ink-muted: #a5a3c4;
+  --border: rgba(165, 180, 252, 0.18);
+  --shadow: rgba(0, 0, 0, 0.4) 0 1px 2px, rgba(0, 0, 0, 0.35) 0 8px 24px -8px;
+}
+
+body {
+  margin: 0;
+  background: var(--surface-muted);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+* {
+  box-sizing: border-box;
+}

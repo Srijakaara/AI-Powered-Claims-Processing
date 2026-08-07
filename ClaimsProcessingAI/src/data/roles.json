@@ -1,0 +1,42 @@
+[
+  {
+    "id": "operational",
+    "label": "Operational User",
+    "personName": "A. Verma",
+    "channel": "web",
+    "email": "operational@trustshield.ai",
+    "password": "Trust@123",
+    "route": "/dashboard",
+    "implemented": true
+  },
+  {
+    "id": "auditor",
+    "label": "Auditor",
+    "personName": "S. Kapoor",
+    "channel": "web",
+    "email": "auditor@trustshield.ai",
+    "password": "Trust@123",
+    "route": "/auditor",
+    "implemented": false
+  },
+  {
+    "id": "executive",
+    "label": "Executive Sponsor",
+    "personName": "R. Malhotra",
+    "channel": "web",
+    "email": "executive@trustshield.ai",
+    "password": "Trust@123",
+    "route": "/executive",
+    "implemented": false
+  },
+  {
+    "id": "admin",
+    "label": "Admin",
+    "personName": "N. Sinha",
+    "channel": "web",
+    "email": "admin@trustshield.ai",
+    "password": "Trust@123",
+    "route": "/admin",
+    "implemented": false
+  }
+]
