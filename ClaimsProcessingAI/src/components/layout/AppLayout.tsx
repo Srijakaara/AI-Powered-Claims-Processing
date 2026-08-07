@@ -7,6 +7,7 @@ import { TopNav } from './TopNav'
 export function AppLayout() {
   const user = getAuthedUser()
   const [collapsed, setCollapsed] = useState(false)
+  const [mobileOpen, setMobileOpen] = useState(false)
 
   if (!user) {
     return <Navigate to="/login" replace />
@@ -14,9 +15,19 @@ export function AppLayout() {
 
   return (
     <div className="flex h-svh flex-col bg-[var(--surface-muted)]">
-      <TopNav user={user} collapsed={collapsed} onToggleCollapsed={() => setCollapsed((v) => !v)} />
+      <TopNav
+        user={user}
+        collapsed={collapsed}
+        onToggleCollapsed={() => setCollapsed((v) => !v)}
+        onOpenMobileMenu={() => setMobileOpen(true)}
+      />
       <div className="flex min-h-0 flex-1">
-        <Sidebar roleId={user.id} collapsed={collapsed} />
+        <Sidebar
+          roleId={user.id}
+          collapsed={collapsed}
+          mobileOpen={mobileOpen}
+          onCloseMobile={() => setMobileOpen(false)}
+        />
         <main className="min-w-0 flex-1 overflow-y-auto">
           <Outlet />
         </main>

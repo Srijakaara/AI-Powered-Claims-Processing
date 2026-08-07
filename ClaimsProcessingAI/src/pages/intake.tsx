@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { ImageIcon, FileScan, Search, Send, Paperclip, Phone, PhoneCall } from 'lucide-react'
+import { ImageIcon, FileScan, Search, Send, Paperclip, Phone, PhoneCall, ArrowLeft } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import intakeData from '@/data/intake.json'
 import { type Channel, type AiStage, CHANNEL_META } from '@/components/case-meta'
@@ -58,7 +58,7 @@ function initials(name: string) {
 export default function IntakePage() {
   const [channelFilter, setChannelFilter] = useState<Channel | null>(null)
   const [query, setQuery] = useState('')
-  const [selectedId, setSelectedId] = useState(intake[0]?.fnolId ?? null)
+  const [selectedId, setSelectedId] = useState<string | null>(null)
 
   const filtered = useMemo(() => {
     return intake.filter((f) => {
@@ -75,7 +75,7 @@ export default function IntakePage() {
   return (
     <div className="flex h-full flex-col">
       {/*Header Intake */}
-      <header className="border-b border-[var(--border)] px-6 py-4">
+      <header className="border-b border-[var(--border)] px-4 py-4 sm:px-6">
         <h1 className="text-xl font-semibold text-[var(--ink)]">Intake</h1>
         <p className="mt-0.5 text-sm text-[var(--ink-muted)]">
           Multi-channel FNOL conversations — app, WhatsApp, and call — with live AI photo and document processing.
@@ -84,7 +84,12 @@ export default function IntakePage() {
 
       <div className="flex min-h-0 flex-1">
         {/* Conversation list */}
-        <div className="flex w-80 shrink-0 flex-col border-r border-[var(--border)] bg-[var(--surface)]">
+        <div
+          className={cn(
+            'flex w-full shrink-0 flex-col border-r border-[var(--border)] bg-[var(--surface)] sm:w-80',
+            selected && 'hidden sm:flex',
+          )}
+        >
           <div className="border-b border-[var(--border)] p-3">
             <div className="relative">
               <Search size={15} className="pointer-events-none absolute left-2.5 top-1/2 -translate-y-1/2 text-[var(--ink-muted)]" />
@@ -163,7 +168,15 @@ export default function IntakePage() {
         {selected ? (
           <div className="flex min-w-0 flex-1 flex-col bg-[var(--surface-muted)]">
             <div className="flex items-center justify-between gap-4 border-b border-[var(--border)] bg-[var(--surface)] px-5 py-3">
-              <div className="flex items-center gap-3">
+              <div className="flex min-w-0 items-center gap-3">
+                <button
+                  type="button"
+                  onClick={() => setSelectedId(null)}
+                  aria-label="Back to conversations"
+                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-[var(--ink-muted)] hover:bg-[var(--surface-muted)] hover:text-[var(--ink)] sm:hidden"
+                >
+                  <ArrowLeft size={16} />
+                </button>
                 <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-navy-100 text-xs font-semibold text-navy-700">
                   {initials(selected.claimantName)}
                 </span>

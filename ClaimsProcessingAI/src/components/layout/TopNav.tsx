@@ -1,15 +1,17 @@
 import { useNavigate } from 'react-router-dom'
-import { ShieldCheck, LogOut, PanelLeftClose, PanelLeftOpen } from 'lucide-react'
+import { ShieldCheck, LogOut, PanelLeftClose, PanelLeftOpen, Menu } from 'lucide-react'
 import { type AuthedUser, clearAuthedUser, initials } from '@/lib/auth'
 
 export function TopNav({
   user,
   collapsed,
   onToggleCollapsed,
+  onOpenMobileMenu,
 }: {
   user: AuthedUser
   collapsed: boolean
   onToggleCollapsed: () => void
+  onOpenMobileMenu: () => void
 }) {
   const navigate = useNavigate()
 
@@ -23,9 +25,17 @@ export function TopNav({
       <div className="flex items-center gap-3">
         <button
           type="button"
+          onClick={onOpenMobileMenu}
+          aria-label="Open menu"
+          className="flex h-8 w-8 items-center justify-center rounded-lg text-[var(--ink-muted)] transition-colors hover:bg-navy-50 hover:text-navy-700 lg:hidden"
+        >
+          <Menu size={18} />
+        </button>
+        <button
+          type="button"
           onClick={onToggleCollapsed}
           aria-label={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
-          className="flex h-8 w-8 items-center justify-center rounded-lg text-[var(--ink-muted)] transition-colors hover:bg-navy-50 hover:text-navy-700"
+          className="hidden h-8 w-8 items-center justify-center rounded-lg text-[var(--ink-muted)] transition-colors hover:bg-navy-50 hover:text-navy-700 lg:flex"
         >
           {collapsed ? <PanelLeftOpen size={18} /> : <PanelLeftClose size={18} />}
         </button>

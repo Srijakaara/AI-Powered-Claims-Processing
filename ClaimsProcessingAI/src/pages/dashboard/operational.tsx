@@ -65,7 +65,7 @@ export default function OperationalDashboard() {
   }, [activeFilter, statusFilter])
 
   return (
-    <div className="mx-auto max-w-7xl px-6 py-8 lg:px-10">
+    <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8 lg:px-10">
       <header className="mb-6">
         <h1 className="text-xl font-semibold text-[var(--ink)]">Cases</h1>
         <p className="mt-1 text-sm text-[var(--ink-muted)]">

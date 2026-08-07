@@ -239,7 +239,7 @@ export default function DecisionPage() {
 
   if (!record) {
     return (
-      <div className="mx-auto max-w-7xl px-6 py-8 lg:px-10">
+      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8 lg:px-10">
         <Link to="/dashboard" className="inline-flex items-center gap-1.5 text-sm font-medium text-navy-600 hover:underline">
           <ArrowLeft size={15} /> Back to Cases
         </Link>
@@ -254,7 +254,7 @@ export default function DecisionPage() {
   const CategoryIcon = CATEGORY_META[c.category].icon
 
   return (
-    <div className="mx-auto max-w-7xl px-6 py-8 lg:px-10">
+    <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8 lg:px-10">
       <Link to="/dashboard" className="inline-flex items-center gap-1.5 text-sm font-medium text-navy-600 hover:underline">
         <ArrowLeft size={15} /> Back to Cases
       </Link>
@@ -282,7 +282,7 @@ export default function DecisionPage() {
         {/* Case details */}
         <section className="rounded-xl border border-[var(--border)] bg-[var(--surface)] p-5 shadow-[var(--shadow)]">
           <h2 className="text-sm font-semibold text-[var(--ink)]">Case Details</h2>
-          <dl className="mt-3 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
+          <dl className="mt-3 grid grid-cols-1 gap-x-4 gap-y-3 text-sm sm:grid-cols-2">
             <div>
               <dt className="text-xs text-[var(--ink-muted)]">Claimant</dt>
               <dd className="mt-0.5 text-[var(--ink)]">{d.claimant.name}</dd>
@@ -299,7 +299,7 @@ export default function DecisionPage() {
               <dt className="text-xs text-[var(--ink-muted)]">Incident Date</dt>
               <dd className="mt-0.5 text-[var(--ink)]">{d.incident.date}</dd>
             </div>
-            <div className="col-span-2">
+            <div className="sm:col-span-2">
               <dt className="text-xs text-[var(--ink-muted)]">Description</dt>
               <dd className="mt-0.5 text-[var(--ink)]">{d.incident.description}</dd>
             </div>
@@ -375,7 +375,7 @@ export default function DecisionPage() {
             <p className="mt-1 text-xs text-navy-700/80">{d.decision.patternDescription}</p>
           </div>
 
-          <div className="mt-3.5 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
+          <div className="mt-3.5 grid grid-cols-1 gap-x-4 gap-y-3 text-sm sm:grid-cols-2">
             <div>
               <dt className="text-xs text-[var(--ink-muted)]">AI Confidence</dt>
               <dd className="mt-0.5 font-mono font-medium text-[var(--ink)]">{c.aiConfidence}%</dd>
